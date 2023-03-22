@@ -1,10 +1,16 @@
 <template>
-    <div>
-        <p>Error Page</p>
-        <div>
-            <router-link to="/">Home page</router-link>
-            <router-link to="/about">About page</router-link>
-            <router-link to="/github">Github page</router-link>
+     <div class="container">
+        <div class="header">
+            <div class="logo">Favvy</div>
+            <div class="routers">
+                <router-link to="/" class="router">Home</router-link>
+                <router-link to="/about" class="router">About</router-link>
+            </div>
+
         </div>
+
+        <section>
+            <p>Error page. Go back Home</p>
+        </section>
     </div>
 </template>
